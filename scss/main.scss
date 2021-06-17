@@ -1,0 +1,129 @@
+$colorLetras: black;
+$colorCopy: gray;
+$colorBackground: white;
+$colorBorder: black;
+
+
+$paragraph: fuente;
+$size: fontsize;
+
+.imagen__quienessomos{
+    align-items: center;
+}
+p { 
+    color: $colorLetras;
+    @if $paragraph==fuente { 
+    font-family: Arial, Helvetica, sans-serif;}
+    @if $size==fontsize {
+    font-size: 20px;}
+    text-decoration: none;
+}
+
+h1 {
+    color: $colorLetras;
+    font-family: "Bambi Bold";
+    text-transform: none;
+}
+
+h2,
+h3 {
+    color: $colorLetras;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+ol{
+   
+    .lista{
+      
+      li{
+        color: $colorLetras;
+        list-style-type: decimal;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        background-color: rgb(231, 172, 104);
+      }
+    }
+  }
+
+div{
+    .footer__social-icons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-size: 20px; 
+    }
+}
+
+.footer__copyright{
+    p{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    }
+}
+
+/* mi barra de navegacion*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    /*  position: fixed;*/
+    nav{
+        ul{
+            li{
+                list-style: none;
+                padding: 5px 10px;
+                margin: 5px;
+                background-color: $colorBackground;
+                border: 1px solid $colorBorder;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.logo{
+    float: none;
+    width: 100px;
+    height: 100px;
+}
+
+
+li{
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: $colorLetras;
+        font-family: sans-serif;
+    }
+}
+
+.header__nav-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer__nav-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+
+ .border {
+    border: 1px solid black;
+ }
+

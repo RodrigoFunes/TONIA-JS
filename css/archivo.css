@@ -1,0 +1,126 @@
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h1 {
+    color: black;
+    font-family: "Bambi Bold";
+    text-transform: none;
+}
+
+h2,
+h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+ol.lista li {
+        color: black;
+        list-style-type: decimal;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        background-color: rgb(231, 172, 104);
+        
+
+}
+
+div.footer__social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+    justify-content: center;  
+}
+
+.footer_copyright p {
+        display: flex;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: smaller;
+        justify-content: center;
+}
+
+/* mi barra de navegacion*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    /*  position: fixed;*/
+}
+
+.carousel-inicio{
+    width: 600px;
+    height: 400px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: white;
+    display: inline-block;
+    
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+
+/*Flexbox*/
+
+.header__nav-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+ .border {
+    border: 1px solid black;
+ }
+ 
+ .carousel-inner img {
+    width: 100%;
+    width: 200px;
+}
+
+.carousel-inner{
+ height: 1130px;
+}
+
+
+body{
+    background-color:white
+}
+
+ 
+  
+.popup-window {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 50vw;
+    background-color: white;
+    position: fixed;
+    left: 50%;
+    top: 120px;
+    transform: translateX(-50%);
+}

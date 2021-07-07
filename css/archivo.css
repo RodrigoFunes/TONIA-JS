@@ -1,6 +1,6 @@
 p {
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-decoration: none;
 }
@@ -14,17 +14,18 @@ h1 {
 h2,
 h3 {
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 50px;
     text-align: center;
+    letter-spacing: 4px;
 }
 
 ol.lista li {
         color: black;
         list-style-type: decimal;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
-        background-color: rgb(231, 172, 104);
+        
         
 
 }
@@ -88,7 +89,12 @@ li a{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 4px;
+ }
+
 
 
  .border {
@@ -123,4 +129,53 @@ body{
     left: 50%;
     top: 120px;
     transform: translateX(-50%);
+}
+
+.footer__copyright{
+    text-align: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller; 
+}
+
+
+.sectorIdentificacion{
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    right: 0;
+    width: 250px;
+}
+
+.identificacionLink{
+    color: black;
+    font-size: 16px;
+    
+
+}
+
+.identificacionLink:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+.envio{
+    font-size: 36px;
+}
+
+
+.footer-icons .fab {
+    font-size: 40px;
+}
+
+
+table {
+    table-layout: fixed;
+}
+
+tfoot {
+    border-top: .5px solid rgba(0, 0, 0, 0.5);
 }

@@ -12,7 +12,17 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="css/icons.css" type="text/css" />
         <link rel="stylesheet" href="css/archivo.css" type="text/css" />
+        
         <link rel="stylesheet" href="fonts/X_BAMBI.TTF" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap" rel="stylesheet">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         
        <!--CDN de Bootstrap del CSS-->
       <script  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script><!-- CDN de la librería de Jquery  -->
@@ -20,26 +30,35 @@
     </head>
     <body>
         <header>
-            <a href="index.html"> <img class="logo" src="./images/tonialogo.jpg"> </a>
+            <div class="d-flex position-relative justify-content-center align-items-center">
+              <p class="m-0 p-0 flex-grow-1"> <a href="index.html"> <img class="logo" src="./images/tonialogo.jpg"> </a> </p>
+
+              <div class="m-0 p-4 position-absolute sectorIdentificacion">
+                <p class="m-0 p-0"><a href="#" class="identificacionLink">Ingresar </a></p>
+                <p class="m-0 p-0"><a href="#" class="identificacionLink"> Registrate</a> </p>
+                <p class="m-0 p-0"><a href="#" class="text-reset"><i class="fas fa-shopping-bag"></i></a></p>
+              </div>
+            </div>
+          
              <nav class="header__nav-flex">
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav class="navbar navbar-expand-lg navbar-light animate__animated animate__fadeInUp">
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand active" href="index.html">INICIO</a>
+                    <a class="navbar-brand active" href="index.html">Inicio</a>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                       <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                         <li class="nav-item">
-                          <a class="nav-link" href="pages/productos.html">PRODUCTOS<span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="pages/productos.html">Productos<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="pages/comocomprar.html">CÓMO COMPRAR</a>
+                          <a class="nav-link" href="pages/comocomprar.html">Cómo comprar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/nosotros.html">QUIÉNES SOMOS</a>
+                            <a class="nav-link" href="pages/nosotros.html">Quiénes somos</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
                           </li>
                       </ul>
                     </div>
@@ -78,48 +97,47 @@
             </a>
           </div>
           <div class="container">
-            <h3>PRODUCTOS DESTACADOS</h3>
-            <p>Todos los productos están hechos a mano. Por lo tanto, una vez que realices la compra, tu producto tendrá una demora de 15 a 20 días. Realizamos envíos a todo el país. 
+            <h3 class="p-5 animate__animated animate__fadeInUp">Productos destacados</h3>
+            <p class="animate__animated animate__fadeInLeft">Todos los productos están hechos a mano. Por lo tanto, una vez que realices la compra, tu producto tendrá una demora de 15 a 20 días. Realizamos envíos a todo el país. 
             </p>
             </div>
             <div class="container">
             <div class="row">
-            <img class="col-lg-6" src="./images/almohadonesestilos.JPG" alt="almohadon">
-            <img class="col-lg-6" src="./images/fundas.JPG" alt="fundas">
+            <img class="col-lg-6" class="rounded float-left" src="./images/spray_pomelo.JPG" >
+            <img class="col-lg-6" class="rounded float-right" src="./images/spray_lima.JPG" >
           </div>
         </div>
         </section>  
         </main> 
-        <footer class="footer_copyright">
-          <nav class="header__nav-flex">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand active" href="index.html">Inicio</a>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-                    <li class="nav-item">
-                      <a class="nav-link" href="pages/productos.html">Productos<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="pages/comocomprar.html">Cómo comprar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/nosotros.html">Quiénes somos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
-                      </li>
-                  </ul>
-                </div>
-              </nav>
-        </nav>
-          <div class="footer__social-icons">
-               <a href="https://www.facebook.com/Tonia-101256128248245"> <i class="icon-facebook"></i> </a>
-               <a href="https://www.instagram.com/tonia__home/"><i class="icon-instagram"></i> </a>
-            </div>  
-            <p>&copy; Copyright Tonia 2020 - Tonia home. Todos los derechos reservados.</p>   
+        <footer class="p-5 bg-white text-dark">
+        <div class="container-fluid ">
+
+            <div class="d-flex justify-content-between align-items-center">
+
+              <figure class="m-0 p-0">
+                <img class="footer-logo" src="./images/tonialogo.jpg">
+              </figure>
+
+              <div class="text-center">
+                <p class="envio m-0 p-0"><i class="fas fa-shipping-fast"></i></p>
+                <p class="p-0 m-0">Envíos a todo el pais</p>
+                <small>&copy; Copyright Tonia 2020 - Tonia home. Todos los derechos reservados.</small>
+              </div>
+    
+              <div class="d-flex flex-column">
+                <h4>Seguinos en</h4>
+                <ul class="footer-icons list-unstyled d-flex justify-content-between">
+                  <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                  <li><a href=""><i class="fab fa-tiktok"></i></a></li>
+                </ul>
+
+              </div>
+
+            </div>
+
+           
+          </div>   
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> <!-- CDN de la librería de Popper -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- CDN de Bootstrap del JS -->
